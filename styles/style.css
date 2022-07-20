@@ -2,7 +2,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
  :root {
-    --font-color:
+    --background-color: #1E1E1E;
+    --background-button-color: #DD0000;
  }
 
  /* common style */
@@ -28,7 +29,7 @@
  .watch-live {
     display: flex;
 
-    background-color: #161616;
+    background-color: var(--background-color);
     border-radius: 30px;
     margin: 50px;
     margin-left: 140px;
@@ -67,7 +68,7 @@
     height: 56px;
     margin-top: 20px;
     margin-left: 25px;
-    background-color: #DD0000;
+    background-color: var(--background-button-color);
     border-radius: 5px;
  }
 
@@ -82,3 +83,64 @@
  }
 
  /* end header styles */
+
+ /*--------------------------
+ start match section styles 
+ -----------------------------*/
+ .container {
+    width: 100%;
+ }
+
+ .match-blogs {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 140px;
+    background-color: var(--background-color);
+    padding: 15px;
+    border-radius: 15px;
+    height: 272px;
+
+
+
+ }
+
+ .match-blogs>ul {
+    list-style: none;
+
+
+ }
+
+ ul button {
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 200px;
+    height: 64px;
+    margin: 20px 25px;
+    padding: 15px;
+    border-radius: 10px;
+
+
+
+ }
+
+ ul button li {
+
+    height: 64px;
+    gap: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+
+
+ }
+
+ #blog-button {
+    color: #FFFFFF;
+    background-color: var(--background-button-color);
+
+ }

@@ -1,0 +1,84 @@
+ /* font style */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+ :root {
+    --font-color:
+ }
+
+ /* common style */
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+
+    width: 100%;
+    height: 100%;
+ }
+
+ /* start header styles */
+ header {
+    width: 1321px;
+    height: 646px;
+
+
+ }
+
+ .watch-live {
+    display: flex;
+
+    background-color: #161616;
+    border-radius: 30px;
+    margin: 50px;
+    margin-left: 140px;
+    padding: 20px;
+    align-items: center;
+
+ }
+
+ .watch-live-text {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    margin-left: 20px;
+
+ }
+
+ .watch-live-text h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-top: 5px;
+ }
+
+ .bannerText p {
+    font-size: 10px;
+    font-weight: 400px;
+    line-height: 15px;
+    margin-top: 10px;
+ }
+
+ .btn {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    width: 187px;
+    height: 56px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: #DD0000;
+    border-radius: 5px;
+ }
+
+ .icon {
+
+    margin-left: 20px;
+ }
+
+ .banner-image img {
+    width: 500px;
+    height: 400px;
+ }
+
+ /* end header styles */
